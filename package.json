@@ -1,0 +1,35 @@
+{
+  "name": "@utopian/root",
+  "private": true,
+  "license": "GPL-3.0",
+  "author": "Utopian Company SRLs",
+  "homepage": "https://utopian.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utopian-io/v2.utopian.io.git"
+  },
+  "scripts": {
+    "precommit": "lerna run --concurrency 1 --stream precommit",
+    "lint:fix": "lerna run --no-bail lint:fix",
+    "dev": "lerna run dev --stream",
+    "debug": "lerna run debug --stream",
+    "test": "lerna run test --stream",
+    "audit:snyk": "lerna run audit:snyk --stream",
+    "audit:node_modules": "lerna run audit:node_modules --stream",
+    "audit:licenses": "lerna run audit:licenses --stream",
+    "test:jest": "lerna run test:jest --no-bail",
+    "test:jest:watch": "lerna run test:jest:watch --no-bail",
+    "test:webdriver": "lerna run test:webdriver --stream",
+    "selenium:install": "selenium-standalone install",
+    "selenium:start": "selenium-standalone start",
+    "danger:killall": "ps auxww | grep node | grep -v grep | awk '{ print $2 }' | xargs kill -9"
+  },
+  "devDependencies": {
+    "@utopian/i18n": "file:packages/i18n",
+    "concurrently": "4.1.0",
+    "husky": "1.2.0",
+    "lerna": "3.5.0",
+    "quasar-cli": "0.17.22",
+    "selenium-standalone": "6.15.4"
+  }
+}

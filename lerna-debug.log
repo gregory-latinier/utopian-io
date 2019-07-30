@@ -1,0 +1,178 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   stream: true,
+0 silly argv   lernaVersion: '3.5.0',
+0 silly argv   '$0': 'node_modules/.bin/lerna',
+0 silly argv   script: 'dev'
+0 silly argv }
+1 notice cli v3.5.0
+2 verbose rootPath /Applications/MAMP/htdocs/UTOPIAN ORG/openchange
+3 silly batched [
+3 silly batched   PackageGraphNode {
+3 silly batched     name: '@utopian/api',
+3 silly batched     externalDependencies: Map {
+3 silly batched       'chai' => [Object],
+3 silly batched       'concurrently' => [Object],
+3 silly batched       'eslint' => [Object],
+3 silly batched       'eslint-config-hapi' => [Object],
+3 silly batched       'eslint-config-standard' => [Object],
+3 silly batched       'eslint-plugin-hapi' => [Object],
+3 silly batched       'eslint-plugin-import' => [Object],
+3 silly batched       'eslint-plugin-node' => [Object],
+3 silly batched       'eslint-plugin-promise' => [Object],
+3 silly batched       'eslint-plugin-standard' => [Object],
+3 silly batched       'lint-staged' => [Object],
+3 silly batched       'mocha' => [Object],
+3 silly batched       'nodemon' => [Object],
+3 silly batched       'nyc' => [Object],
+3 silly batched       '@sentry/node' => [Object],
+3 silly batched       '@steemit/steem-js' => [Object],
+3 silly batched       'axios' => [Object],
+3 silly batched       'boom' => [Object],
+3 silly batched       'dotenv' => [Object],
+3 silly batched       'franc' => [Object],
+3 silly batched       'glob' => [Object],
+3 silly batched       'glue' => [Object],
+3 silly batched       'good' => [Object],
+3 silly batched       'good-console' => [Object],
+3 silly batched       'hapi' => [Object],
+3 silly batched       'hapi-auth-jwt2' => [Object],
+3 silly batched       'inert' => [Object],
+3 silly batched       'joi' => [Object],
+3 silly batched       'jsonwebtoken' => [Object],
+3 silly batched       'lout' => [Object],
+3 silly batched       'mongoose' => [Object],
+3 silly batched       'ramda' => [Object],
+3 silly batched       'sanitize-html' => [Object],
+3 silly batched       'slugify' => [Object],
+3 silly batched       'steem' => [Object],
+3 silly batched       'vision' => [Object]
+3 silly batched     },
+3 silly batched     localDependencies: Map {},
+3 silly batched     localDependents: Map {}
+3 silly batched   },
+3 silly batched   PackageGraphNode {
+3 silly batched     name: '@utopian/auth',
+3 silly batched     externalDependencies: Map {
+3 silly batched       '@sentry/browser' => [Object],
+3 silly batched       '@steemit/steem-js' => [Object],
+3 silly batched       '@utopian/i18n' => [Object],
+3 silly batched       'axios' => [Object],
+3 silly batched       'b2a' => [Object],
+3 silly batched       'babel-eslint' => [Object],
+3 silly batched       'concurrently' => [Object],
+3 silly batched       'dotenv' => [Object],
+3 silly batched       'eslint' => [Object],
+3 silly batched       'eslint-config-standard' => [Object],
+3 silly batched       'eslint-friendly-formatter' => [Object],
+3 silly batched       'eslint-loader' => [Object],
+3 silly batched       'eslint-plugin-import' => [Object],
+3 silly batched       'eslint-plugin-node' => [Object],
+3 silly batched       'eslint-plugin-promise' => [Object],
+3 silly batched       'eslint-plugin-standard' => [Object],
+3 silly batched       'eslint-plugin-vue' => [Object],
+3 silly batched       'extra-watch-webpack-plugin' => [Object],
+3 silly batched       'jest' => [Object],
+3 silly batched       'jsonwebtoken' => [Object],
+3 silly batched       'lint-staged' => [Object],
+3 silly batched       'pug' => [Object],
+3 silly batched       'pug-plain-loader' => [Object],
+3 silly batched       'quasar-cli' => [Object],
+3 silly batched       'strip-ansi' => [Object],
+3 silly batched       'typeface-lato' => [Object],
+3 silly batched       'typeface-noto-sans' => [Object],
+3 silly batched       'typeface-roboto-mono' => [Object],
+3 silly batched       'typeface-source-sans-pro' => [Object],
+3 silly batched       'vue-i18n' => [Object],
+3 silly batched       'vuelidate' => [Object],
+3 silly batched       'webdriverio' => [Object],
+3 silly batched       'bigi' => [Object],
+3 silly batched       'bs58' => [Object],
+3 silly batched       'create-hash' => [Object],
+3 silly batched       'ecurve' => [Object],
+3 silly batched       'randombytes' => [Object],
+3 silly batched       'steem' => [Object]
+3 silly batched     },
+3 silly batched     localDependencies: Map {},
+3 silly batched     localDependents: Map {}
+3 silly batched   },
+3 silly batched   PackageGraphNode {
+3 silly batched     name: '@utopian/client',
+3 silly batched     externalDependencies: Map {
+3 silly batched       '@babel/plugin-syntax-dynamic-import' => [Object],
+3 silly batched       '@octokit/rest' => [Object],
+3 silly batched       '@sentry/browser' => [Object],
+3 silly batched       '@steemit/steem-js' => [Object],
+3 silly batched       '@utopian/i18n' => [Object],
+3 silly batched       'aes-js' => [Object],
+3 silly batched       'axios' => [Object],
+3 silly batched       'b2a' => [Object],
+3 silly batched       'babel-eslint' => [Object],
+3 silly batched       'babel-plugin-dynamic-import-node' => [Object],
+3 silly batched       'babel-plugin-transform-async-to-generator' => [Object],
+3 silly batched       'babel-plugin-transform-es2015-modules-umd' => [Object],
+3 silly batched       'babel-plugin-transform-object-rest-spread' => [Object],
+3 silly batched       'concurrently' => [Object],
+3 silly batched       'css-loader' => [Object],
+3 silly batched       'dotenv' => [Object],
+3 silly batched       'eslint' => [Object],
+3 silly batched       'eslint-config-standard' => [Object],
+3 silly batched       'eslint-friendly-formatter' => [Object],
+3 silly batched       'eslint-loader' => [Object],
+3 silly batched       'eslint-plugin-import' => [Object],
+3 silly batched       'eslint-plugin-node' => [Object],
+3 silly batched       'eslint-plugin-promise' => [Object],
+3 silly batched       'eslint-plugin-standard' => [Object],
+3 silly batched       'eslint-plugin-vue' => [Object],
+3 silly batched       'extra-watch-webpack-plugin' => [Object],
+3 silly batched       'fs' => [Object],
+3 silly batched       'html-to-text' => [Object],
+3 silly batched       'jest' => [Object],
+3 silly batched       'jsonwebtoken' => [Object],
+3 silly batched       'lint-staged' => [Object],
+3 silly batched       'marked' => [Object],
+3 silly batched       'patch-package' => [Object],
+3 silly batched       'postinstall-postinstall' => [Object],
+3 silly batched       'pug' => [Object],
+3 silly batched       'pug-plain-loader' => [Object],
+3 silly batched       'quasar-cli' => [Object],
+3 silly batched       'register-service-worker' => [Object],
+3 silly batched       'sanitize-html' => [Object],
+3 silly batched       'slugify' => [Object],
+3 silly batched       'strip-ansi' => [Object],
+3 silly batched       'turndown' => [Object],
+3 silly batched       'turndown-plugin-gfm' => [Object],
+3 silly batched       'typeface-lato' => [Object],
+3 silly batched       'typeface-noto-sans' => [Object],
+3 silly batched       'typeface-roboto-mono' => [Object],
+3 silly batched       'typeface-source-sans-pro' => [Object],
+3 silly batched       'vue' => [Object],
+3 silly batched       'vue-croppa' => [Object],
+3 silly batched       'vue-i18n' => [Object],
+3 silly batched       'vue-router' => [Object],
+3 silly batched       'vuelidate' => [Object],
+3 silly batched       'vuex' => [Object],
+3 silly batched       'webdriverio' => [Object],
+3 silly batched       'steem' => [Object]
+3 silly batched     },
+3 silly batched     localDependencies: Map {},
+3 silly batched     localDependents: Map {}
+3 silly batched   }
+3 silly batched ]
+4 info Executing command in 3 packages: "yarn run dev"
+5 silly npmRunScript.stream [ 'dev', [], '@utopian/api' ]
+6 silly getExecOpts /Applications/MAMP/htdocs/UTOPIAN ORG/openchange/packages/api undefined
+7 silly npmRunScript.stream [ 'dev', [], '@utopian/auth' ]
+8 silly getExecOpts /Applications/MAMP/htdocs/UTOPIAN ORG/openchange/packages/auth undefined
+9 silly npmRunScript.stream [ 'dev', [], '@utopian/client' ]
+10 silly getExecOpts /Applications/MAMP/htdocs/UTOPIAN ORG/openchange/packages/client undefined
+11 error MaxBufferError: stderr maxBuffer exceeded
+11 error     at PassThrough.<anonymous> (/Applications/MAMP/htdocs/UTOPIAN ORG/openchange/node_modules/get-stream/index.js:41:19)
+11 error     at PassThrough.emit (events.js:201:15)
+11 error     at addChunk (_stream_readable.js:290:12)
+11 error     at readableAddChunk (_stream_readable.js:267:13)
+11 error     at PassThrough.Readable.push (_stream_readable.js:226:10)
+11 error     at PassThrough.Transform.push (_stream_transform.js:150:32)
+11 error     at PassThrough.afterTransform (_stream_transform.js:94:10)
+11 error     at PassThrough._transform (_stream_passthrough.js:44:3)
+11 error     at PassThrough.Transform._read (_stream_transform.js:189:10)
